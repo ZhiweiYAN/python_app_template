@@ -1,22 +1,24 @@
-<?xml version="1.0"?>
-<parameters Main_API="Config">
-	<ERR001>01 Http Body Error.</ERR001>
-	<ERR002>02 Http Url Error.</ERR002>
-	<ERR003>03 Authentic Token Error</ERR003>
-	<ERR004>04 Http Method Error. Try Http POST method.</ERR004>
-    <ERR005>05 System Load Heavy Error.  Try it after a while.</ERR005>
-    <ERR006>06 Insufficient Funds. Try charge your account.</ERR006>
-    <ERR007>07 No Support Chinese Character. Using English characters.</ERR007>
-    <ERR008>08 Interface Call Too Frequently. </ERR008>
-    <ERR009>09 Interface Call Too Frequently. </ERR009>
-
-    <DBIP>120.25.204.250</DBIP>
-    <DBPort>5432</DBPort>
-    <DBUser>postgres</DBUser>
-    <DBPassword>1234</DBPassword>
-    <DBName>test002</DBName>
-
-    <PublishUrlNull>http://mp.weixin.qq.com/s?__biz=MzAwMDc3OTY3NQ==&amp;mid=401246646&amp;idx=1&amp;sn=e9271d5859e4264982c1353324c5fe1f&amp;scene=0&amp;previewkey=oQBv4rOcD057kHltP57QTZ1iJUUG%2F7eLf7OA%2FVEtaJE%3D#wechat_redirect</PublishUrlNull>
-    <ArticleUrlLong>http://mp.weixin.qq.com/s</ArticleUrlLong>
-    <HistoryUrlLong>http://mp.weixin.qq.com/mp/getmasssendmsg</HistoryUrlLong>
-</parameters>
+<?xml version="1.0"?>
+<parameters Main_API="Config">
+    <err_code>        <ERR001>01 Http Body Error.</ERR001>
+        <ERR002>02 Http Url Error.</ERR002>
+        <ERR003>03 Authentic Token Error</ERR003>
+        <ERR004>04 Http Method Error. Try Http POST method.</ERR004>
+        <ERR005>05 System Load Heavy Error.  Try it after a while.</ERR005>
+        <ERR006>06 Insufficient Funds. Try charge your account.</ERR006>
+        <ERR007>07 No Support Chinese Character. Using English characters.</ERR007>
+        <ERR008>08 Interface Call Too Frequently. </ERR008>
+        <ERR009>09 Interface Call Too Frequently. </ERR009>
+    </err_code>
+    <db_info>
+        <DBIP>120.25.204.250</DBIP>
+        <DBPort>5432</DBPort>
+        <DBUser>postgres</DBUser>
+        <DBPassword>1234</DBPassword>
+        <DBName>test002</DBName>
+    </db_info>
+    <PublishUrlNull>http://mp.weixin.qq.com/s?__biz=MzAwMDc3OTY3NQ==&amp;mid=401246646&amp;idx=1&amp;sn=e9271d5859e4264982c1353324c5fe1f&amp;scene=0&amp;previewkey=oQBv4rOcD057kHltP57QTZ1iJUUG%2F7eLf7OA%2FVEtaJE%3D#wechat_redirect</PublishUrlNull>
+    <ArticleUrlLong>http://mp.weixin.qq.com/s</ArticleUrlLong>
+    <HistoryUrlLong>http://mp.weixin.qq.com/mp/getmasssendmsg</HistoryUrlLong>
+</parameters>
+
